@@ -11,7 +11,7 @@ Loaded and cleaned the Lego dataset to ensure accuracy and usability.
 Created calculated columns and measures to enable detailed analysis.
 
 Tasks:
-- Connected to the lego_sets CSV file. Remove the minifigs, bricksetURL and thumbnailURL fields, review data types for accuracy, and filter out records with no price, age, pieces or image URL values.
+- Connected to the lego_sets CSV file via SQL Server. In Power Query, removed minifigs, bricksetURL and thumbnailURL fields, check data types for accuracy and filter out records without price, age, pieces or image URL values.
 - Created conditional columns for Age Range (“Over 18”, “10 to 17”, “5 to 9”, “1 to 4”) and Price Range (>$500 = “$$$$$”, >$100 = “$$$$”, >$50 = “$$$”, >$25 = “$$”, otherwise “$”).
 - Added measures to calculate the number of distinct sets (Total Sets) and theme groups (Total Groups), as well as the average age (Avg. Age), price (Avg. Price) and pieces (Avg. Pieces).
 ```
